@@ -4,7 +4,7 @@ import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
 import joblib
-model=joblib.load('linear_regression_model.pkl')
+model=joblib.load('linear_regression_model (3).pkl')
 
 # 2. 모델 설명
 st.title('기대수명 예측 프로그램')
