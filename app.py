@@ -18,14 +18,22 @@ st.write('-모델 정확도 : 0.72')
 col1,col2,col3=st.columns(2)
 with col1:
  st.subheader('데이터 시각화1')
- st.image('')
+ st.image('시각화1 (2).png')
 with col2:
- st.subheader('데이터 시각화1')
- st.image('')
+ st.subheader('데이터 시각화2')
+ st.image('시각화2 (2).png')
 with col3:
- st.subheader('데이터 시각화1')
- st.image('')
+ st.subheader('데이터 시각화3')
+ st.image('시각화3.png')
 # 4. 모델 활용
 st.subheader('모델 활용')
 st.write('기대수명을 예측해드립니다')
 
+a=st.number_input('학습수준을 입력하세요',value=0)
+b=st.number_input('국가의 물접근량을 입력하세요.',value=0.0)
+b=st.number_input('국가의 출산률을 입룍하세요',value=0.0)
+
+if st.button('기대수명 예측')
+  input_data=[[a,b,c]]
+  p=model.predict(input_data)
+  st.wirt('기대수명은?',p)
