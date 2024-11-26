@@ -30,7 +30,7 @@ st.subheader('모델 활용')
 st.write('기대수명을 예측해드립니다')
 
 a=st.number_input('학습수준을 입력하세요',value=0)
-b=st.number_input('국가의 물접근량을 입력하세요.',value=0.0)
+b=st.number_input('국가의 물 접근성을 입력하세요.',value=0.0)
 c=st.number_input('국가의 출산률을 입룍하세요',value=0.0)
 
 if st.button('기대수명 예측'):
