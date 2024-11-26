@@ -7,7 +7,7 @@ import joblib
 model=joblib.load('linear_regression_model (3).pkl')
 
 # 2. 모델 설명
-st.title('기대수명 예측 프로그램')
+st.title('기대수명 예측 프로그램 *생명과 건강에 대한 평등한 접근권을 침해할 수 있습니다.')
 st.subheader('모델 설명')
 st.write('-기계학습 알고리즘 : 선형회귀')
 st.write('-학습데이터 출처 : http://www.kaggle.com/')
