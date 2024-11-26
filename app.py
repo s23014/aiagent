@@ -27,7 +27,7 @@ with col3:
  st.image('시각화3.png')
 # 4. 모델 활용
 st.subheader('모델 활용')
-st.write('기대수명을 예측해드립니다 ***생명과 건강에 대한 평등한 접근권을 침해할 수 있습니다.')
+st.write('기대수명을 예측해드립니다 ***생명과 건강에 대한 평등한 접근권을 침해할 우려가 있습니다.')
 
 a=st.number_input('학습수준을 입력하세요',value=0)
 b=st.number_input('국가의 물 접근성을 입력하세요.',value=0.0)
