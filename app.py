@@ -36,4 +36,4 @@ b=st.number_input('국가의 출산률을 입룍하세요',value=0.0)
 if st.button('기대수명 예측'):
   input_data=[[a,b,c]]
   p=model.predict(input_data)
-  st.wirt('기대수명은?',p)
+  st.wwrite('기대수명은?',p)
