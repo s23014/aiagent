@@ -15,7 +15,7 @@ st.write('-훈련데이터 : 61건')
 st.write('-테스트데이터 : 140건')
 st.write('-모델 정확도 : 0.72')
 # 3. 데이터시각화
-col1,col2,col3=st.columns(2)
+col1,col2,col3=st.columns(3)
 with col1:
  st.subheader('데이터 시각화1')
  st.image('시각화1 (2).png')
